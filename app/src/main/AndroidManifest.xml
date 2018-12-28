@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="home.westering56.ringvolumesetter">
+    package="home.westering56.ringbear">
 
     <application
         android:allowBackup="true"
@@ -13,7 +13,7 @@
         tools:ignore="GoogleAppIndexingWarning">
 
         <service
-            android:name=".VolumeInterceptorAccessibilityService"
+            android:name="home.westering56.ringbear.VolumeInterceptorAccessibilityService"
             android:label="@string/accessibility_service_label"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
             <intent-filter>

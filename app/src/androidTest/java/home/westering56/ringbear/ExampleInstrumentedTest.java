@@ -1,4 +1,4 @@
-package home.westering56.ringvolumesetter;
+package home.westering56.ringbear;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("home.westering56.ringvolumesetter", appContext.getPackageName());
+        assertEquals("home.westering56.ringbear", appContext.getPackageName());
     }
 }

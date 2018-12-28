@@ -1,4 +1,4 @@
-package home.westering56.ringvolumesetter;
+package home.westering56.ringbear;
 
 import org.junit.Test;
 
