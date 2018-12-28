@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">RingVolumeSetter</string>
-    <string name="accessibility_service_label">Minkus\' Volume Accessibility Service</string>
+    <string name="app_name">Ring Bear</string>
+    <string name="accessibility_service_label">Volume button override</string>
     <string name="accessibility_service_description">Use the buttons on your phone to change the ring volume, not the media volume</string>
-    <string name="accessibility_service_summary">Use volume buttons to control ring volume</string>
+    <string name="accessibility_service_summary">Use volume buttons to adjust ring volume</string>
 </resources>
