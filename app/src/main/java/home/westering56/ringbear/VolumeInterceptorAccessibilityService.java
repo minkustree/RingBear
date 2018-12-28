@@ -78,7 +78,7 @@ public class VolumeInterceptorAccessibilityService extends AccessibilityService 
 
     private void adjustVolume(final int direction) {
         Log.d(TAG, "Adjusting volume: direction=" + direction);
-        audioManager.adjustStreamVolume(AudioManager.STREAM_RING, direction,
+        audioManager.adjustSuggestedStreamVolume(direction, AudioManager.STREAM_RING,
                 AudioManager.FLAG_SHOW_UI | HIDDEN_FLAG_FROM_KEY);
     }
 }
