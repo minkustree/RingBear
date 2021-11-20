@@ -28,6 +28,12 @@ public class VolumeInterceptorAccessibilityService extends AccessibilityService 
     }
 
     @Override
+    public void onDestroy() {
+        Log.d(TAG, "onDestroy");
+        super.onDestroy();
+    }
+
+    @Override
     public void onAccessibilityEvent(AccessibilityEvent event) {
         Log.e(TAG, "Received unexpected accessibility: event" + event.toString());
     }
